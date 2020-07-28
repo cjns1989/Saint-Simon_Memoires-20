@@ -1,0 +1,10 @@
+# untracked files
+
+# originals & work files
+
+original/
+sundries/
+
+# backup files
+
+*.sav

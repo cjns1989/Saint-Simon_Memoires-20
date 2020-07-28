@@ -1,0 +1,22 @@
+@page {margin: 10px;}
+
+@font-face { font-family:"EB Garamond"; font-style:normal; font-weight:normal; src:url("../fonts/EBGaramond-Regular.otf"); }
+@font-face { font-family:"EB Garamond"; font-style:italic; font-weight:normal; src:url("../fonts/EBGaramond-Italic.otf"); }
+
+sup {
+  font-size: 0.675em;
+  line-height: 1.2;
+  vertical-align: super;
+  vertical-align: 35%; 
+}
+body {
+  font-family:"EB Garamond", serif;
+  line-height: 1.2;
+  margin-left:.5em;
+  margin-right:.5em;
+}
+ol.toc li {  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+p {   text-indent:2em;   text-align:justify;   margin-top:0;  margin-bottom:0;  font-kerning: normal;  font-variant: common-ligatures oldstyle-nums proportional-nums;  font-feature-settings: "kern", "liga", "clig", "onum", "pnum"; -webkit-hyphenate-limit-before: 3;  -webkit-hyphenate-limit-after: 2;  -ms-hyphenate-limit-chars: 6 3 2;  hyphenate-limit-chars: 6 3 2;  -webkit-hyphenate-limit-lines: 2;  hyphenate-limit-lines: 2;}
